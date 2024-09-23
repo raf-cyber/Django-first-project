@@ -8,3 +8,11 @@ def homeView(request):
 def aboutView(request):
     message = "This is the desciption for hello world"
     return HttpResponse(message)
+
+def contactView(request):
+    message="This is a contact page"
+    return HttpResponse(message)
+
+def cartView(request):
+    message="This is a cart page"
+    return HttpResponse(message)
